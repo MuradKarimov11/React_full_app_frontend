@@ -12,6 +12,7 @@ type Props ={
     required?: string;
     endContent?: JSX.Element
 }
+
 export const Input: React.FC<Props> = ({
     name,
     label,
@@ -32,6 +33,7 @@ export const Input: React.FC<Props> = ({
             required
         }
     });
+    
     return (
         <NextInput
             id={name}

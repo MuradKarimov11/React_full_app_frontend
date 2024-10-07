@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { ThemeContext } from '../theme-provider';
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem } from '@nextui-org/react';
 import { FaRegMoon } from 'react-icons/fa';
