@@ -85,7 +85,7 @@ const Register = ({setSelected}: Props) => {
             </p>
             <div className="flex gap-2 justify-end">
                 <Button fullWidth color='primary' type='submit' isLoading={isLoading}>
-                    Войти
+                    Зарегистрироваться
                 </Button>
             </div>
         </form>
